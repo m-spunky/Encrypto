@@ -1,6 +1,6 @@
 # Encrypto
 
-## ENCRYPTO is a Crystallographical solution for encryption and decryption.
+## ENCRYPTO is a Cryptographical solution for encryption and decryption.
 
 Cryptography is the art of communication between two users via coded messages. The science of cryptography emerged with the basic motive of providing security to the confidential messages transferred from one party to another.
 
