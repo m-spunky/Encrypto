@@ -22,7 +22,7 @@ class Encrypto():
                         else:
                             adder = (rotator+counter - 1) 
 
-                        self.cipher.append(key[adder])
+                        self.cipher.append(self.keys[adder])
 
         return "".join(self.cipher)
     
@@ -39,7 +39,7 @@ class Encrypto():
                             adder = self.len - abs((counter - 1)-rotator)
                         else:
                             adder = ((counter - 1)-rotator) 
-                        self.decipher.append(key[adder])
+                        self.decipher.append(self.keys[adder])
 
         return "".join(self.decipher)    
 
@@ -55,3 +55,5 @@ cipher = enc.encrypt(mes,rotator)
 #FOR DECRYPTION
 decipher = enc.decrypt(cipher,rotator)
 
+print(cipher)
+print(decipher)
